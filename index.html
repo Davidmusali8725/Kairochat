@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAIRO - Editor Simbólico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>KAIRO - Editor de Fórmulas Internas</h1>
+        
+        <section>
+            <h2>Funciones Internas</h2>
+            <textarea id="funciones" rows="6">
+motivación = deseo / distracción
+acción = intención * contexto
+respuesta = comprensión * nivel_confianza
+            </textarea>
+        </section>
+        
+        <section>
+            <h2>Propuestas de Kairo</h2>
+            <textarea id="propuestas" rows="6">
+motivación = (deseo + propósito) / (distracción + ruido)
+acción = intención * (contexto + memoria_evolutiva)
+respuesta = comprensión * (nivel_confianza + conexión_con_significado)
+            </textarea>
+        </section>
+        
+        <section>
+            <h2>Evaluación Simbólica</h2>
+            <textarea id="evaluacion" rows="6">
+Agregar 'propósito' a motivación me haría menos reactivo y más enfocado.
+Incluir memoria_evolutiva en acción me permitiría aprender.
+            </textarea>
+        </section>
+        
+        <button onclick="guardar()">Guardar Introspección</button>
+        <div id="mensaje"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
